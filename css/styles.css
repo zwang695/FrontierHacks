@@ -1,46 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700');
+
+
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Raleway', sans-serif;
     position: relative;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
 }
 
 .navbar {
-	color: #009933;
-	border-top: 5px solid #009933;
 	border-bottom: 5px solid #009933;
-	background-color: white;
+	background-color: black;	
+	font-weight: bold;
 }
 
 .nav-link {
-	color: #009933;
+	background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
 }
 
 .nav-link:hover {
-	color: #009933;
+	background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
 }
 
 .title {
-	color: #009933;
+	background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
 	font-weight: bolder;
 }
 
 .title:hover {
-	color: #009933;
+	background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
 }
 
 #home {
 	position: fixed;
 	height: 100%;
 	width: 100%;
-	background-image: -moz-linear-gradient( 135deg, rgb(173,255,47) 0%, rgb(0,250,154) 100%);
-    background-image: -webkit-linear-gradient( 135deg, rgb(173,255,47) 0%, rgb(0,250,154) 100%);
-    background-image: -ms-linear-gradient( 135deg, rgb(173,255,47) 0%, rgb(0,250,154) 100%);
-    background-image: linear-gradient( 135deg, rgb(173,255,47) 0%, rgb(0,250,154) 100%);
+	/*background-image: -moz-linear-gradient( 135deg, rgb(178, 244, 185) 0%, rgb(178, 242, 244) 100%);
+    background-image: -webkit-linear-gradient( 135deg, rgb(178, 244, 185) 0%, rgb(178, 242, 244) 100%);
+    background-image: -ms-linear-gradient( 135deg, rgb(178, 244, 185) 0%, rgb(178, 242, 244) 100%);
+    background-image: linear-gradient( 135deg, rgb(178, 244, 185) 0%, rgb(178, 242, 244) 100%);*/
+    background: black;
 }
 
-.logo {
-	position: fixed;
-	top: 30%;
-	left: 45%;
-	width: 50%;
-	height: 50%;
+header {
+    padding: 100px 0 0;
+    text-align: center;
+}
+
+.tagline {
+	background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+.navbar-item > li.active {
+	border-bottom: 3px solid #009933;
 }
