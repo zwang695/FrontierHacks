@@ -1,0 +1,38 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+}
+
+.navbar {
+	color: #009933;
+	border-top: 5px solid #009933;
+	border-bottom: 5px solid #009933;
+	background-color: white;
+}
+
+.nav-link {
+	color: #009933;
+}
+
+.nav-link:hover {
+	color: #009933;
+}
+
+.logo {
+	color: #009933;
+	font-weight: bolder;
+}
+
+.logo:hover {
+	color: #009933;
+}
+
+#home {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-image: -moz-linear-gradient( 135deg, rgb(50, 175, 79) 0%, rgb(122, 245, 122) 100%);
+    background-image: -webkit-linear-gradient( 135deg, rgb(50, 175, 79) 0%, rgb(122, 245, 122) 100%);
+    background-image: -ms-linear-gradient( 135deg, rgb(50, 175, 79) 0%, rgb(122, 245, 122) 100%);
+    background-image: linear-gradient( 135deg, rgb(50, 175, 79) 0%, rgb(122, 245, 122) 100%);
+}
