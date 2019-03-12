@@ -9,13 +9,15 @@
 
     <link href="assets/bootstrap.css" rel="stylesheet" type="text/css" media="all">
     <link href="css/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/animate.css">
+    <link rel="stylesheet" href="css/animate.css">
 
     <link href="css/hover.css" rel="stylesheet">
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
     <link rel="icon" type="image/png" href="img/logo.png">
+
+	<script src="js/parallax.min.js"></script>
 
     <script src="js/wow.min.js"></script>
     <script>
@@ -29,24 +31,26 @@
 			<a class="navbar-brand title" href="index.html"><strong>SMYLE</strong><img src="img/logo-small.png"><strong>HACKS</strong></a>
 			<div id="navbar" class="navbar-collapse collapse">
 				<ul id="top-menu" class="navbar-nav ml-auto">
-					<li class="active navbar-item col">
+					<li class="active hvr-grow navbar-item col">
 						<a class="nav-link" href="#home">HOME</a>
 					</li>
-					<li class="navbar-item col">
+					<li class="navbar-item hvr-grow col">
 						<a class="nav-link" href="#about">ABOUT</a>
 					</li>
-					<li class="navbar-item col">
+					<li class="navbar-item hvr-grow col">
 						<a class="nav-link" href="#sponsor">SPONSOR</a>
 					</li>
-					<li class="navbar-item col">
+					<li class="navbar-item hvr-grow col">
 						<a class="nav-link" href="#team">TEAM</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	</div>
-	<header class="full-height container-fluid" id="home">
-        <div><img class="d-block mx-auto" src="img/logo.png"></div>
+	<header class="full-height container-fluid parallax-window" data-parallax="scroll" data-image-src="img/pic6.png" id="home">
+        <div class="wow fadeInRight">
+        	<img class="d-block mx-auto" src="img/logo.png">
+        </div>
         <div class="container mt-3">
             <h1 class="title"><strong>SmyleHacks</strong></h1>
             <p class="tagline lead">Fall 2019</p>
@@ -55,7 +59,7 @@
 
     <section class="section-padding" id="about">
     	<div class="container">
-    		<h1>
+    		<h1 class="title">
     			About
     		</h1>
     		<div class="row">
