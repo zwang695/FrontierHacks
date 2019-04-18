@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700');
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -10,42 +10,47 @@ body {
     font-weight: 400;
     font-size: 15px;
     line-height: 1.8;
-    background-image: linear-gradient( 100deg, rgb(178, 244, 185) 0%, rgb(178, 242, 244) 100%);
+    background-image: linear-gradient(100deg, rgb(178, 244, 185) 0%, rgb(178, 242, 244) 100%);
 }
 
 .navbar {
-	border-bottom: 3px solid #009933;
-	background-color: black;	
-	font-weight: bold;
+    border-bottom: 3px solid #009933;
+    background-color: black;
+    font-weight: bold;
+    width: 100%;
 }
 
 .nav-link {
-	background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+    background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .nav-link:hover {
-	background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+    background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(178, 242, 244, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .title {
-	background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-	font-weight: bolder;
+    background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
 }
 
 .title:hover {
-	background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+    background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #home {
-	/*background-image: -moz-linear-gradient( 135deg, rgb(178, 244, 185) 0%, rgb(178, 242, 244) 100%);
+    /*background-image: -moz-linear-gradient( 135deg, rgb(178, 244, 185) 0%, rgb(178, 242, 244) 100%);
     background-image: -webkit-linear-gradient( 135deg, rgb(178, 244, 185) 0%, rgb(178, 242, 244) 100%);
     background-image: -ms-linear-gradient( 135deg, rgb(178, 244, 185) 0%, rgb(178, 242, 244) 100%);
     background-image: linear-gradient( 135deg, rgb(178, 244, 185) 0%, rgb(178, 242, 244) 100%);*/
@@ -62,12 +67,12 @@ header {
 }
 
 .tagline {
-	background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+    background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-#top-menu > li > a:before {
+#top-menu>ul>li>a:before {
     content: "";
     position: absolute;
     left: 50%;
@@ -84,8 +89,8 @@ header {
     transition: 0.3s;
 }
 
-#top-menu > li > a:hover:before,
-#top-menu > li.active > a:before {
+#top-menu>ul>li>a:hover:before,
+#top-menu>ul>li.active>a:before {
     opacity: 1;
     top: 0;
 }
@@ -100,19 +105,19 @@ header {
 }
 
 #sponsor {
-  /*background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
+    /*background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;*/
-  color: white;
+    color: white;
 }
 
 .logo {
-  width: 20%;
-  height: 20%;
-  margin-top: 3%;
+    width: 20%;
+    height: 20%;
+    margin-top: 3%;
 }
 
 #home {
-  font-size: calc(20px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+    font-size: calc(20px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
