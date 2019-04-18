@@ -14,7 +14,7 @@ body {
 }
 
 .navbar {
-	border-bottom: 5px solid #009933;
+	border-bottom: 3px solid #009933;
 	background-color: black;	
 	font-weight: bold;
 }
@@ -107,8 +107,8 @@ header {
 }
 
 .logo {
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
   margin-top: 3%;
 }
 
