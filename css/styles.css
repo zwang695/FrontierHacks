@@ -170,7 +170,10 @@ header {
     /*background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;*/
-    color: white;
+    background-color: rgb(255, 255, 255, 0.5);
+    color: black;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
 }
 
 .logo {
