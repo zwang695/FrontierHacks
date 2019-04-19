@@ -202,15 +202,15 @@ header {
 /*faq*/
 
 .custom-container {
-  width:100%;
+    width: 100%;
 }
 
-.faqtitle{
-  padding-top: 100px;
+.faqtitle {
+    padding-top: 100px;
 }
 
 .spacing {
-  padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .topfaq {
@@ -220,7 +220,7 @@ header {
 }
 
 .middlefaq {
-   background-color: rgb(66, 91, 206, 0.5);
+    background-color: rgb(66, 91, 206, 0.5);
 }
 
 .bottomfaq {
@@ -232,6 +232,13 @@ header {
 .card {
     padding: 20px 10px;
     margin-bottom: 20px;
+}
+
+.faq-row {
+  width: 50%;
+  float: left;
+  min-width: 300px;
+  padding: 0px 10px
 }
 
 @media screen and (max-width:767px) {
