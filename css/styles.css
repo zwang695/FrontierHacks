@@ -25,19 +25,21 @@ body {
     background-color: black;
     font-weight: bold;
     width: 100%;
-    z-index: 9999;
+    z-index: 2;
 }
 
 .nav-link {
     background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    z-index: 2;
 }
 
 .nav-link:hover {
     background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    z-index: 2;
 }
 
 .navbar-toggler .navbar-toggler-icon {
@@ -213,22 +215,6 @@ header {
     padding-bottom: 50px;
 }
 
-.topfaq {
-    /*background-color: rgb(66, 91, 206, 0.5);*/
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-}
-
-.middlefaq {
-    /*background-color: rgb(66, 91, 206, 0.5);*/
-}
-
-.bottomfaq {
-    /*background-color: rgb(66, 91, 206, 0.5);*/
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-}
-
 .card {
     padding: 20px 10px;
     margin-bottom: 20px;
@@ -240,6 +226,10 @@ header {
   float: left;
   min-width: 300px;
   padding: 0px 10px
+}
+
+.clear {
+  clear: both;
 }
 
 @media screen and (max-width:767px) {
