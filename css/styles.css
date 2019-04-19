@@ -206,7 +206,7 @@ header {
 }
 
 .faqtitle {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .spacing {
@@ -214,17 +214,17 @@ header {
 }
 
 .topfaq {
-    background-color: rgb(66, 91, 206, 0.5);
+    /*background-color: rgb(66, 91, 206, 0.5);*/
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
 }
 
 .middlefaq {
-    background-color: rgb(66, 91, 206, 0.5);
+    /*background-color: rgb(66, 91, 206, 0.5);*/
 }
 
 .bottomfaq {
-    background-color: rgb(66, 91, 206, 0.5);
+    /*background-color: rgb(66, 91, 206, 0.5);*/
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
 }
@@ -232,6 +232,7 @@ header {
 .card {
     padding: 20px 10px;
     margin-bottom: 20px;
+    z-index: -1;
 }
 
 .faq-row {
