@@ -20,6 +20,19 @@ body {
     perspective: 1px;
 }
 
+#about a, #faq a, #sponsor a, footer a {
+  text-decoration: none;
+  border-bottom: 2px solid rgb(26, 82, 173);
+  color: inherit;
+  padding: 3px;
+  transition: 0.3s ease;
+}
+
+#about a:hover, #faq a:hover, #sponsor a:hover, footer a:hover {
+  background-color: rgb(26, 82, 173);
+  color: white
+}
+
 .navbar {
     border-bottom: 3px solid #009933;
     background-color: black;
@@ -202,6 +215,10 @@ header {
 }
 
 /*faq*/
+
+#faq {
+
+}
 
 .custom-container {
     width: 100%;
