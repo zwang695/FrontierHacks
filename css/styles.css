@@ -20,17 +20,27 @@ body {
     perspective: 1px;
 }
 
-#about a, #faq a, #sponsor a, footer a {
-  text-decoration: none;
-  border-bottom: 2px solid rgb(26, 82, 173);
-  color: inherit;
-  padding: 3px;
-  transition: 0.3s ease;
+#about a,
+#faq a,
+#sponsor a,
+footer a {
+    text-decoration: none;
+    border-bottom: 2px solid rgb(26, 82, 173);
+    color: inherit;
+    padding: 3px;
+    transition: 0.3s ease;
 }
 
-#about a:hover, #faq a:hover, #sponsor a:hover, footer a:hover {
-  background-color: rgb(26, 82, 173);
-  color: white
+#about a:hover,
+#faq a:hover,
+#sponsor a:hover,
+footer a:hover {
+    background-color: rgb(26, 82, 173);
+    color: white
+}
+
+#navigation {
+    z-index: 2;
 }
 
 .navbar {
@@ -38,21 +48,18 @@ body {
     background-color: black;
     font-weight: bold;
     width: 100%;
-    z-index: 2;
 }
 
 .nav-link {
     background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    z-index: 2;
 }
 
 .nav-link:hover {
     background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    z-index: 2;
 }
 
 .navbar-toggler .navbar-toggler-icon {
@@ -190,14 +197,12 @@ header {
     height: 100vh;
 }
 
+#about {}
+
 #sponsor {
-    /*background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;*/
-    /*background-color: rgb(255, 255, 255, 0.5);*/
-    color: black;
-    /* border-top-left-radius:50%;
-    border-top-right-radius:50%;*/
+    /*background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);*/
 }
 
 .logo {
@@ -216,9 +221,6 @@ header {
 
 /*faq*/
 
-#faq {
-
-}
 
 .custom-container {
     width: 100%;
@@ -235,18 +237,17 @@ header {
 .card {
     padding: 20px 10px;
     margin-bottom: 20px;
-    z-index: -1;
 }
 
 .faq-row {
-  width: 50%;
-  float: left;
-  min-width: 300px;
-  padding: 0px 10px
+    width: 50%;
+    float: left;
+    min-width: 300px;
+    padding: 0px 10px
 }
 
 .clear {
-  clear: both;
+    clear: both;
 }
 
 @media screen and (max-width:767px) {
