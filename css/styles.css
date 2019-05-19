@@ -138,11 +138,11 @@ footer a:hover {
         rgba(0, 0, 0, 0.9) 100%),
         url(../img/pic6.png);
     background-position: 50%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; 
     height: 100vh;
-    width: 100%;*/
+    width: 100%;
     overflow: hidden;
     background: #b4ddf0;
     top: 0;
@@ -214,6 +214,10 @@ header {
 .logo {
     width: 25rem;
     z-index: 50;
+    float: right;
+}
+
+.tittext {
     float: right;
 }
 
@@ -295,23 +299,6 @@ header {
 
 .clear {
     clear: both;
-}
-
-@media screen and (max-width:767px) {
-
-    .logo {
-        width: 18rem;
-        float: none;
-    }
-
-    .faq-row {
-        width: 100%;
-    }
-
-    .mountain {
-        z-index: -1;
-    }
-
 }
 
 @media screen and (max-width:767px) {
