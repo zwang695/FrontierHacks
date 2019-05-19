@@ -90,7 +90,7 @@ footer a:hover {
 }
 
 #home {
-    background-image: -webkit-linear-gradient(top,
+    /*background-image: -webkit-linear-gradient(top,
         rgba(0, 0, 0, 0.9) 0%,
         rgba(0, 0, 0, 0) 20%,
         rgba(0, 0, 0, 0) 80%,
@@ -142,7 +142,13 @@ footer a:hover {
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
-    width: 100%;
+    width: 100%;*/
+    overflow: hidden;
+    background: #b4ddf0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 header {
@@ -206,7 +212,9 @@ header {
 }
 
 .logo {
-    width: 20rem;
+    width: 25rem;
+    z-index: 50;
+    float: right;
 }
 
 #home {
@@ -246,6 +254,45 @@ header {
     padding: 0px 10px
 }
 
+.mountain {
+    position: absolute;
+    bottom: 0;
+    border-width: 25rem 20rem;
+    border-style: solid;
+    border-color: transparent transparent #93A4B4 transparent;
+    z-index: 1;
+}
+
+.mountain-top {
+    position: relative;
+    border-left: 6rem solid transparent;
+    border-right: 6rem solid transparent;
+    border-bottom: 8rem solid #e8f2f7;
+    z-index: 2;
+}
+
+.mountain-cap-1,
+.mountain-cap-2,
+.mountain-cap-3 {
+    position: absolute;
+    top: 8rem;
+    border-left: 2rem solid transparent;
+    border-right: 2rem solid transparent;
+    border-top: 2rem solid #e8f2f7;
+}
+
+.mountain-cap-1 {
+    left: -6rem;
+}
+
+.mountain-cap-2 {
+    left: -2rem;
+}
+
+.mountain-cap-3 {
+    left: 2rem;
+}
+
 .clear {
     clear: both;
 }
@@ -253,11 +300,41 @@ header {
 @media screen and (max-width:767px) {
 
     .logo {
-        width: 15rem;
+        width: 18rem;
+        float: none;
     }
 
     .faq-row {
         width: 100%;
+    }
+
+    .mountain {
+        z-index: -1;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    .logo {
+        width: 18rem;
+        float: none;
+    }
+
+    .faq-row {
+        width: 100%;
+    }
+
+    .mountain {
+        z-index: -1;
+    }
+
+    .mountain-top {
+        z-index: -1;
+    }
+
+    .mountain-cap-1, .mountain-cap-2, .mountain-cap-3 {
+        z-index: -1;
     }
 
 }
