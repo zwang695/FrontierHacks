@@ -73,7 +73,7 @@ footer a:hover {
 }
 
 .pad {
-    padding-top: 65px;
+    margin-top: 110px;
 }
 
 .title {
@@ -140,11 +140,11 @@ footer a:hover {
     background-position: 50%;
     background-repeat: no-repeat; */
     background-attachment: fixed;
-    background-size: cover; 
+    background-size: cover;
     height: 100vh;
     width: 100%;
     overflow: hidden;
-    background: #b4ddf0;
+    /*background: #b4ddf0;*/
     top: 0;
     left: 0;
     right: 0;
@@ -203,12 +203,15 @@ header {
     height: 100vh;
 }
 
-#about {}
+#about {
+    /*background-image: linear-gradient(0deg, rgb(178, 244, 185) 0%, rgb(178, 242, 244) 100%);*/
+}
 
 #sponsor {
     /*background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
     background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
     background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);*/
+    /*background-image: linear-gradient(0deg, rgb(178, 244, 185) 0%, rgb(178, 242, 244) 100%);*/
 }
 
 .logo {
@@ -233,6 +236,9 @@ header {
 
 /*faq*/
 
+#faq {
+    /*background-image: linear-gradient(0deg, rgb(178, 242, 244) 0%, rgb(178, 244, 185) 100%);*/
+}
 
 .custom-container {
     width: 100%;
@@ -256,6 +262,21 @@ header {
     float: left;
     min-width: 300px;
     padding: 0px 10px
+}
+
+/* sponsors */
+
+.partner {
+  /*height: 35px;
+  margin: 25px 15px;
+  opacity: 0.6;
+  margin-top: 20px;*/
+  height: 10rem;
+}
+
+/*footer*/
+.page-footer {
+    /*background-image: linear-gradient(0deg, rgb(178, 242, 244) 0%, rgb(178, 244, 185) 100%);*/
 }
 
 .mountain {
@@ -297,6 +318,106 @@ header {
     left: 2rem;
 }
 
+#clouds {
+    padding: 100px 0;
+    background: #c9dbe9;
+    background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+    background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
+    background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+}
+
+.cloud {
+    width: 200px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 200px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    position: relative;
+}
+
+.cloud:before,
+.cloud:after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+}
+
+.cloud:after {
+    width: 120px;
+    height: 120px;
+    top: -55px;
+    left: auto;
+    right: 15px;
+}
+
+.x1 {
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    transform: scale(0.4);
+    -webkit-animation: moveclouds 120s linear infinite;
+    -moz-animation: moveclouds 120s linear infinite;
+    -o-animation: moveclouds 120s linear infinite;
+}
+
+.x2 {
+    left: -1000px;
+    top: -250px;
+    -webkit-transform: scale(0.47);
+    -moz-transform: scale(0.47);
+    transform: scale(0.47);
+    opacity: 0.8;
+    -webkit-animation: moveclouds 110s linear infinite;
+    -moz-animation: moveclouds 110s linear infinite;
+    -o-animation: moveclouds 110s linear infinite;
+}
+
+@-webkit-keyframes moveclouds {
+    0% {
+        margin-left: 1000px;
+    }
+
+    100% {
+        margin-left: -1000px;
+    }
+}
+
+@-moz-keyframes moveclouds {
+    0% {
+        margin-left: 1000px;
+    }
+
+    100% {
+        margin-left: -1000px;
+    }
+}
+
+@-o-keyframes moveclouds {
+    0% {
+        margin-left: 1000px;
+    }
+
+    100% {
+        margin-left: -1000px;
+    }
+}
+
+.night {
+    background: black;
+    background: transparent url(../img/stars.png) repeat bottom center;
+}
+
 .clear {
     clear: both;
 }
@@ -320,7 +441,13 @@ header {
         z-index: -1;
     }
 
-    .mountain-cap-1, .mountain-cap-2, .mountain-cap-3 {
+    .mountain-cap-1,
+    .mountain-cap-2,
+    .mountain-cap-3 {
+        z-index: -1;
+    }
+
+    .cloud {
         z-index: -1;
     }
 
