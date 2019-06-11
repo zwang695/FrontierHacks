@@ -29,7 +29,9 @@ $(document).ready(function() {
         if (h > 19 || h < 4) {
             $("#home").addClass("night");
         }
-        $("#home").addClass("night");
+        else {
+            $("#home").addClass("day");
+        }
     }
 
 });
