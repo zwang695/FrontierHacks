@@ -22,7 +22,7 @@ body {
 
 #about a,
 #faq a,
-#sponsor a,
+#sponsord a,
 footer a {
     text-decoration: none;
     border-bottom: 2px solid rgb(26, 82, 173);
@@ -33,7 +33,7 @@ footer a {
 
 #about a:hover,
 #faq a:hover,
-#sponsor a:hover,
+#sponsord a:hover,
 footer a:hover {
     background-color: rgb(26, 82, 173);
     color: white
@@ -266,12 +266,10 @@ header {
 
 /* sponsors */
 
-.partner {
-  /*height: 35px;
-  margin: 25px 15px;
-  opacity: 0.6;
-  margin-top: 20px;*/
-  height: 10rem;
+.partner.title {
+  height: 100px;
+  display: block;
+  margin: 15px auto 20px auto
 }
 
 /*footer*/
@@ -415,7 +413,7 @@ header {
 
 .night {
     background: black;
-    background: transparent url(../img/stars.png) repeat bottom center;
+    /*background: transparent url(../img/stars.png) repeat bottom center;*/
 }
 
 .clear {
