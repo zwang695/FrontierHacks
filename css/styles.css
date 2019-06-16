@@ -267,10 +267,38 @@ header {
 
 /* sponsors */
 
+#sponsors-container {
+    width: 100%;
+    padding: 0px 15px;
+}
+
+#sponsors-container {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+#sponsors-container h2 {
+  margin-bottom: 10px
+}
+
+.sponsor {
+    margin: 25px 15px;
+}
+
+.t1 {
+    height: 2rem;
+}
+
+.t2 {
+    height: 5rem;
+}
+
 .partner.title {
-  height: 100px;
-  display: block;
-  margin: 15px auto 20px auto
+    height: 100px;
+    display: block;
+    margin: 15px auto 20px auto
 }
 
 /*footer*/
