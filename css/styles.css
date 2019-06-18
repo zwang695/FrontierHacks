@@ -215,10 +215,24 @@ header {
     /*background-image: linear-gradient(0deg, rgb(178, 244, 185) 0%, rgb(178, 242, 244) 100%);*/
 }
 
+.logo-container {
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+}
+
 .logo {
     width: 25rem;
     z-index: 50;
     float: right;
+}
+
+.sub-title {
+    display: block;
+    color: #ffffff;
+    text-align: right;
+    padding-right: 60px;
+    /* padding: 60px 10px; */
 }
 
 .tittext {
@@ -453,6 +467,11 @@ header {
     .logo {
         width: 18rem;
         float: none;
+    }
+
+    .sub-title {
+        text-align: center;
+        padding-right: 0px;
     }
 
     .faq-row {
