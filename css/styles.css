@@ -227,6 +227,11 @@ header {
     float: right;
 }
 
+.sub-container {
+    display: block;
+    float: right;
+}
+
 .sub-title {
     display: block;
     color: #ffffff;
@@ -417,6 +422,15 @@ header {
     -webkit-animation: moveclouds 110s linear infinite;
     -moz-animation: moveclouds 110s linear infinite;
     -o-animation: moveclouds 110s linear infinite;
+}
+
+.social {
+    margin: 10px 20px;
+    border: none;
+}
+
+.instagram img {
+    height: 25px;
 }
 
 @-webkit-keyframes moveclouds {
