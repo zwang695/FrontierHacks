@@ -232,7 +232,15 @@ header {
     float: right;
 }
 
-.sub-title {
+.sub-title-day {
+    display: block;
+    color: black;
+    text-align: right;
+    padding-right: 60px;
+    /* padding: 60px 10px; */
+}
+
+.sub-title-night {
     display: block;
     color: #ffffff;
     text-align: right;
