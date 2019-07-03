@@ -518,4 +518,8 @@ header {
         z-index: -1;
     }
 
+    .sponsor {
+        height: 3rem;
+    }
+
 }
