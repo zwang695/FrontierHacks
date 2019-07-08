@@ -33,8 +33,7 @@ footer a {
 
 #about a:hover,
 #faq a:hover,
-#sponsord a:hover,
-footer a:hover {
+#sponsord a:hover {
     background-color: rgb(26, 82, 173);
     color: white
 }
@@ -202,6 +201,45 @@ header {
 .full-height {
     width: 100%;
     height: 100vh;
+}
+
+.regis-btn {
+    border: 2px solid rgb(26, 82, 173);
+    color: rgb(26, 82, 173);
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    display: inline-block;
+    font-size: 18px;
+    outline: medium none;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 15rem;
+    text-align: center;
+}
+
+.regis-btn a {
+    text-decoration: none;
+}
+
+.regis-btn a,
+.regis-btn:hover a {
+    transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+}
+
+.regis-btn:hover a {
+    color: #fff;
+}
+
+.regis-btn:hover {
+    background-color: rgb(26, 82, 173);
 }
 
 #about {
