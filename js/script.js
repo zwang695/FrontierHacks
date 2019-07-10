@@ -6,7 +6,7 @@ $(document).ready(function() {
 
     var navbar = document.getElementById("navigation");
 
-    var about = document.getElementById("about");
+    var about = document.getElementById("registration");
 
     // Get the offset position of the navbar
     var sticky = navbar.offsetTop;
