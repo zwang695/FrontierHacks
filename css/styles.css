@@ -529,9 +529,10 @@ header {
         float: none;
     }
 
-    .sub-title {
+    #sub-title {
         text-align: center;
         padding-right: 0px;
+        float: none;
     }
 
     .faq-row {
