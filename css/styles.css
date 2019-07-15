@@ -219,6 +219,11 @@ header {
     text-transform: uppercase;
     width: 15rem;
     text-align: center;
+    z-index: 99;
+    /*position: absolute;*/
+    margin-top: 1rem;
+    float: right;
+    margin-right: 4rem;
 }
 
 .regis-btn a {
@@ -263,6 +268,7 @@ header {
     width: 25rem;
     z-index: 50;
     float: right;
+    margin-top: -6rem;
 }
 
 .sub-container {
@@ -285,6 +291,8 @@ header {
     padding-right: 60px;
     /* padding: 60px 10px; */
 }
+
+
 
 .tittext {
     float: right;
@@ -559,6 +567,11 @@ header {
 
     .sponsor {
         height: 3rem;
+    }
+
+    .regis-btn { 
+        float: none;
+        margin-right: 0;
     }
 
 }
