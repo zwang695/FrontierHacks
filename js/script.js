@@ -29,10 +29,12 @@ $(document).ready(function() {
         if (h > 19 || h < 4) {
             $("#home").addClass("night");
             $("#sub-title").addClass("sub-title-night");
+            $(".card").addClass("card-color-night")
         }
         else {
             $("#home").addClass("day");
             $("#sub-title").addClass("sub-title-day");
+            $(".card").addClass("card-color-day")
         }
     }
 

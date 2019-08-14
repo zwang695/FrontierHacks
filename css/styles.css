@@ -314,6 +314,16 @@ header {
     /*background-image: linear-gradient(0deg, rgb(178, 242, 244) 0%, rgb(178, 244, 185) 100%);*/
 }
 
+.card-color-night {
+    background: black;
+    color: white;
+}
+
+.card-color-day {
+    background: #b4ddf0;
+    color: black;
+}
+
 .custom-container {
     width: 100%;
 }
@@ -523,7 +533,7 @@ header {
 }
 
 .day {
-    background: #b4ddf0;
+    
 }
 
 .clear {
