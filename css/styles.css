@@ -315,13 +315,17 @@ header {
 }
 
 .card-color-night {
-    background: black;
+    /*background: black;
+    color: white;*/
+    background: #17A2B8;
     color: white;
 }
 
 .card-color-day {
-    background: #b4ddf0;
-    color: black;
+    /*background: #b4ddf0;
+    color: black;*/
+    background: #17A2B8;
+    color: white;
 }
 
 .custom-container {
