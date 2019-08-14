@@ -317,15 +317,17 @@ header {
 .card-color-night {
     /*background: black;
     color: white;*/
-    background: #17A2B8;
-    color: white;
+    background: #b2f2f4;
+    color: #1c2228;
+    border-color: #17A2B8;
 }
 
 .card-color-day {
     /*background: #b4ddf0;
     color: black;*/
-    background: #17A2B8;
-    color: white;
+    background: #b2f2f4;
+    color: #1c2228;
+    border-color: #17A2B8;
 }
 
 .custom-container {
@@ -532,7 +534,7 @@ header {
 }
 
 .night {
-    background: black;
+    background: #1c2228;
     /*background: transparent url(../img/stars.png) repeat bottom center;*/
 }
 
