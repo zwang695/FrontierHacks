@@ -44,7 +44,7 @@ footer a {
 
 .navbar {
     border-bottom: 3px solid #009933;
-    background-color: black;
+    background-color: #1c2228;
     font-weight: bold;
     width: 100%;
 }
@@ -278,7 +278,7 @@ header {
 
 .sub-title-day {
     display: block;
-    color: black;
+    color: #1c2228;
     text-align: right;
     padding-right: 60px;
     /* padding: 60px 10px; */
@@ -539,7 +539,7 @@ header {
 }
 
 .day {
-    
+    background: #b2f2f4;
 }
 
 .clear {
