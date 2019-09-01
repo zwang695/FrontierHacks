@@ -10,7 +10,7 @@ body {
     font-weight: 400;
     font-size: 15px;
     line-height: 1.8;
-    background-image: linear-gradient(100deg, rgb(178, 244, 185) 0%, rgb(178, 242, 244) 100%);
+    background-color: #b4ddf0;
 }
 
 .wrapper {
@@ -317,9 +317,9 @@ header {
 .card-color-night {
     /*background: black;
     color: white;*/
-    background: #b2f2f4;
-    color: #1c2228;
-    border-color: #17A2B8;
+    background: #b4ddf0;
+    color: #545454;
+    border-color: #545454;
 }
 
 .card-color-day {
@@ -585,7 +585,7 @@ header {
         height: 3rem;
     }
 
-    .regis-btn { 
+    .regis-btn {
         float: none;
         margin-right: 0;
     }
