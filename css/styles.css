@@ -314,7 +314,7 @@ header {
     width: 100%;
 }
 
-.faqtitle {
+.title {
     padding-top: 50px;
 }
 
@@ -431,6 +431,10 @@ header {
 }
 
 .instagram img {
+    height: 25px;
+}
+
+.facebook img {
     height: 25px;
 }
 
