@@ -76,14 +76,14 @@ footer a {
 }
 
 .title {
-    background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
+    background: #545454;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
 }
 
 .title:hover {
-    background: linear-gradient(to right, rgb(178, 242, 244), rgb(178, 244, 185));
+    background: #545454;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
