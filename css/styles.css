@@ -251,40 +251,34 @@ header {
 #sponsor {}
 
 .logo-container {
-    display: flex;
-    align-content: flex-end;
-    flex-direction: column;
+      display: flex;
+      align-content: flex-end;
+      flex-direction: column;
 }
 
 .logo {
-    width: 25rem;
+    width: 20rem;
     z-index: 50;
-    float: right;
-    margin-top: -10%;
+    float: center;
+    margin-top: 10%;
 }
 
 .sub-container {
     display: block;
-    float: right;
+    float: center;
 }
 
 .sub-title-day {
     display: block;
     color: #545454;
     text-align: center;
-    padding-top: 150px;
-    padding-left: 550px;
 }
 
 .sub-title-night {
     display: block;
     color: #545454;
     text-align: center;
-    padding-top: 150px;
-    padding-left: 550px;
 }
-
-
 
 .tittext {
     float: right;
