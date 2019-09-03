@@ -44,7 +44,7 @@ footer a {
 
 .navbar {
     border-bottom: 3px solid #c8f7cd;
-    background-color: #000000;
+    background-color: #212121;
     font-weight: bold;
     width: 100%;
 }
@@ -319,7 +319,7 @@ header {
 }
 
 .bartitle {
-    padding-top: 10px;
+    padding-top: 4px;
 }
 
 .spacing {
