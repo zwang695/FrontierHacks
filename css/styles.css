@@ -265,6 +265,7 @@ header {
 .sub-container {
     display: block;
     float: center;
+    z-index: 999;
 }
 
 .sub-title-day {
