@@ -65,6 +65,12 @@ footer a {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(178, 242, 244, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+.navbar-light .navbar-brand {
+    background-color: #c8f7cd;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .sticky {
     position: fixed;
     top: 0;
@@ -251,9 +257,9 @@ header {
 #sponsor {}
 
 .logo-container {
-      display: flex;
-      align-content: flex-end;
-      flex-direction: column;
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
 }
 
 .logo {
@@ -266,6 +272,7 @@ header {
     display: block;
     float: center;
     z-index: 999;
+    font-weight: bold;
 }
 
 .sub-title-day {
@@ -321,6 +328,7 @@ header {
 
 .bartitle {
     padding-top: 4px;
+    color: white;
 }
 
 .spacing {
@@ -339,6 +347,10 @@ header {
     padding: 0px 10px
 }
 
+/* Schedule */
+
+
+
 /* sponsors */
 
 #sponsors-container {
@@ -347,14 +359,14 @@ header {
 }
 
 #sponsors-container {
-  text-align: center;
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 40px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
 }
 
 #sponsors-container h2 {
-  margin-bottom: 10px
+    margin-bottom: 10px
 }
 
 .sponsor {
@@ -362,13 +374,37 @@ header {
     height: 5rem;
 }
 
-/*.t1 {
-    height: 2rem;
+/*team*/
+
+#team-container {
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
 }
 
-.t2 {
-    height: 5rem;
-}*/
+figure img {
+    border-radius: 50%;
+    max-height: 180px;
+    max-width: 180px;
+    width: 100%;
+    height: 100%;
+}
+
+.row figure h4 {
+    margin: 0 -3em;
+    margin-top: 0.75em;
+    font-weight: 500;
+}
+
+.row figure figcaption {
+    font-size: 0.8em;
+    margin-top: 0.25em;
+}
+
+
 
 /*footer*/
 .page-footer {
