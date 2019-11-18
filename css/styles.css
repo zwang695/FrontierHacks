@@ -342,6 +342,14 @@ header {
     margin-bottom: 20px;
 }
 
+.schedcard {
+    height: 500px;
+}
+
+.card ul {
+    list-style: none;
+}
+
 .faq-row {
     width: 50%;
     float: left;
