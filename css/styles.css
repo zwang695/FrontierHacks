@@ -272,7 +272,6 @@ header {
     display: block;
     float: center;
     z-index: 999;
-    font-weight: bold;
 }
 
 .sub-title-day {
